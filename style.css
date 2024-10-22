@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Body Styles */
+.body-bg {
+    @apply bg-gray-100;
+    /* Background color for body */
+}
+
+/* Service Card Styles */
+.service-card {
+    @apply bg-violet-50 text-black rounded-lg shadow-lg p-6;
+    /* Card background, text color, border radius, shadow, and padding */
+}
+
+/* Service Icon Styles */
+.service-icon {
+    @apply flex justify-center mb-4;
+    /* Center the icon with margin */
+}
+
+.icon-image {
+    @apply h-20;
+    /* Height for the icon images */
+}
+
+/* Heading and Description Styles */
+.service-heading {
+    @apply text-lg font-bold mb-2;
+    /* Heading text size, weight, and margin */
+}
+
+.service-description {
+    @apply text-gray-700 mb-4;
+    /* Description text color and margin */
+}
+
+/* Link Styles */
+.service-link {
+    @apply text-purple-600 font-semibold;
+    /* Link text color and weight */
+}
